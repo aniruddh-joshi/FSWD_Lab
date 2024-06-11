@@ -6,9 +6,6 @@ $cookie_name = "last_visit";
 if(isset($_COOKIE[$cookie_name])) {
     // Retrieve the last visit time from the cookie
     $last_visit = $_COOKIE[$cookie_name];
-    echo "Last visited on: " . $last_visit;
-} else {
-    echo "This is your first visit!";
 }
 
 // Set the cookie with the current date-time
